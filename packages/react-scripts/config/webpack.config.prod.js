@@ -177,13 +177,13 @@ module.exports = {
                             babelrc: false,
                             presets: [require.resolve('babel-preset-react-app')],
                             // @remove-on-eject-end
-                            plugins: [require.resolve('babel-plugin-transform-decorators')],
+                            plugins: [require.resolve('babel-plugin-transform-decorators-legacy')],
                             compact: true,
                         },
                     },
                     // LESS
                     {
-                        test: /\.less$/,
+                        test: /\.(less|css)$/,
                         loader: ExtractTextPlugin.extract(
                             Object.assign(
                                 {
@@ -222,7 +222,12 @@ module.exports = {
                                                 ],
                                             },
                                         },
-                                        require.resolve('less-loader'),
+                                        {
+                                            loader: require.resolve('less-loader'),
+                                            options: {
+                                                strictMath: true,
+                                            },
+                                        },
                                     ],
                                 },
                                 extractTextPluginOptions
