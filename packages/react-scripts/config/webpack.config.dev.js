@@ -248,7 +248,6 @@ module.exports = {
                             {
                                 loader: require.resolve('less-loader'),
                                 options: {
-                                    sourceMap: true,
                                     strictMath: true,
                                 },
                             }
