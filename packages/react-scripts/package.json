@@ -1,14 +1,14 @@
 {
-  "name": "@dyearwood/react-scripts",
+  "name": "@catavolt-oss/react-scripts",
   "version": "1.1.3",
   "description": "Configuration and scripts for Create React App.",
-  "repository": "danielyearwood/create-react-app",
+  "repository": "catavolt-oss/create-react-app",
   "license": "MIT",
   "engines": {
     "node": ">=6"
   },
   "bugs": {
-    "url": "https://github.com/danielyearwood/create-react-app/issues"
+    "url": "https://github.com/catavolt-oss/create-react-app/issues"
   },
   "files": [
     "bin",
