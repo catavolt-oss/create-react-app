@@ -1,6 +1,6 @@
 {
   "name": "@catavolt/react-scripts",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "Configuration and scripts for Create React App.",
   "repository": "catavolt-oss/create-react-app",
   "license": "MIT",
